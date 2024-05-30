@@ -51,19 +51,6 @@ const habilities: habilitie[] = [
 
 export default function CountServices(){
     return(
-        // <div className="grid justify-between max-w-3xl grid-cols-2 gap-3 mx-auto my-8 md:flex md:grid-cols-4 md:gap-6">
-        //     {habilities.map((service) => {
-        //         const id = crypto.randomUUID();
-        //         return(
-        //             <div key={id} className={`${service.lineRight && 'ltr'}`}>
-        //                 <div className={`${service.lineRight && 'px-4 border-2 border-transparent md:border-e-gray-100'} ${service.lineRightMobile && ' border-e-gray-100'}`}>
-        //                     <p className="flex mb-2 text-2xl font-extrabold md:text-4xl text-secondary">+ <CountUp end={service.counter} start={0} duration={5}></CountUp></p>
-        //                     <p className=" text-xs  uppercase max-w-[100px]">{service.title}</p>
-        //                 </div>
-        //             </div>
-        //         )
-        //     })}
-        // </div>
         <div className="flex flex-col justify-center pt-10">
                 <h1 className="text-2xl leading-tight text-center md:text-4xl md:mb-5">
                     Mis principales <span className="block font-bold text-secondary">habilidades tecnicas</span>

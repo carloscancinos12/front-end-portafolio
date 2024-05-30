@@ -42,7 +42,7 @@ export default async function BlogPage(){
         <>
             <TransPage></TransPage>
             <CircleImage></CircleImage>
-            {/* <AvatarBlog></AvatarBlog> */}
+            <AvatarBlog></AvatarBlog>
             <div className="px-6 grid items-center justify-center h-fit pt-10 md:pt-0 md:h-screen max-w-7xl gap-1 mx-auto md:grid-cols-2 md:px-20">
                 {/* Introduccion */}
                 <div className=" max-w-[450px] mt-20 md:mt-0">

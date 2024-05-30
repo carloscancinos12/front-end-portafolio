@@ -56,10 +56,12 @@ export default function ProjectsPage(){
                         }} freeMode={true} pagination={{clickable:true,}} modules={[Pagination]} className="h-[380px] md:h-[360px] w-[270px] md:w-[600px]"
                         >{
                             projects.map((project, index) => (
-                                <SwiperSlide key={index}> 
+                                <SwiperSlide key={index} className=" items-center"> 
                                     <Image src={project.image} alt={project.title} width={150} height={150} className="mx-auto rounded-2xl"></Image>
-                                    <h4 className="text-center">{project.title}</h4>
-                                    <p className=" mt-5 text-center">{project.description}</p>
+                                    <h4 className="text-center font-extrabold">{project.title}</h4>
+                                    <h5 className="mt-5 text-center font-semibold text-emerald-600 bg-emerald-100 rounded-full">{project.role}</h5>
+                                    <h6 className="text-center font-semibold  text-rose-600 bg-rose-100 rounded-full">{project.tools}</h6>
+                                    <p className=" text-center">{project.description}</p>
                                 </SwiperSlide>
                             ))
                         
