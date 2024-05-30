@@ -18,7 +18,7 @@ const projects: Project[] = [
         title: "Sky Kings",
         tools: "Python, Pygame, Piskel",
         role: "Diseñador de personajes y Fullstack Developer",
-        description: "Videojugo donde los jugadores se sumergen en un vibrante mundo de pixel art, donde valientes personajes luchan en intensos combates cuerpo a cuerpo. El objetivo es ser el último en pie o alcanzar la última plataforma antes que tus oponentes. Con un backend desarrollado en Python, incluyendo físicas realistas y precisas hitboxes, cada movimiento cuenta. Los personajes, diseñados y animados meticulosamente en pixel art.",
+        description: "Videojuego donde los jugadores se sumergen en un vibrante mundo de pixel art, donde valientes personajes luchan en intensos combates cuerpo a cuerpo. El objetivo es ser el último en pie o alcanzar la última plataforma antes que tus oponentes. Con un backend desarrollado en Python, incluyendo físicas realistas y precisas hitboxes, cada movimiento cuenta.",
         image: "/sky-kings.png",
     },
     {
