@@ -1,3 +1,17 @@
+## 🚀Pagina web desplegada🚀
+
+https://front-end-portafolio.vercel.app/
+
+---
+
+## Repositorio con el backend
+
+Si quisiera desplegar el proyecto en un entorno de prueba puede acceder al siguiente link donde encontrara el proyecto de strapi donde se controla el backend de la aplicación
+
+https://github.com/carloscancinos12/backend-strapi
+
+---
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
