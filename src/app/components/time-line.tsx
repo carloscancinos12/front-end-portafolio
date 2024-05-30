@@ -7,29 +7,48 @@ interface Achievement {
 
 const achievements: Achievement[] = [
     {
-        title: "Desarrollador de software",
-        place: "Freelancer",
-        recognitionDate: new Date("2020-01-01"),
-        descripcion: "Desarrollo de aplicaciones web y móviles"
+        title: "Primer lugar Concurso de matemáticas",
+        place: "USAC",
+        recognitionDate: new Date("2016-08-07"),
+        descripcion: "Ganador del primer lugar en la XXIX edición el concurso de matemáticas de la Universidad de San Carlos de Guatemala"
     },
     {
-        title: "Desarrollador de software",
-        place: "Freelancer",
-        recognitionDate: new Date("2020-01-01"),
-        descripcion: "Desarrollo de aplicaciones web y móviles"
+        title: "Cuarto Lugar Concurso de Fisica",
+        place: "USAC",
+        recognitionDate: new Date("2017-10-06"),
+        descripcion: "Ganador del cuarto lugar en la XXX edición el concurso de física de la Universidad de San Carlos de Guatemala"
     },
     {
-        title: "Desarrollador de software",
-        place: "Freelancer",
-        recognitionDate: new Date("2020-01-01"),
-        descripcion: "Desarrollo de aplicaciones web y móviles"
+        title: "Primer Lugar Concurso de Quimica",
+        place: "Instituto Werner Ovalle Lopez",
+        recognitionDate: new Date("2019-10-03"),
+        descripcion: "Ganador del primer lugar en el concurso inter-instituos de química del departamento de Quetzaltenango"
     },
     {
-        title: "Desarrollador de software",
-        place: "Freelancer",
+        title: "Estudiante Ingenieria en Informatica y Sistemas",
+        place: "Universidad Rafael Landivar",
         recognitionDate: new Date("2020-01-01"),
-        descripcion: "Desarrollo de aplicaciones web y móviles"
+        descripcion: "Estudiante de 5to año de la carrera de Ingenieria en Informatica y Sistemas en la Universidad Rafael Landivar"
     },
+    {
+        title: "Cuarto Lugar Concurso de Hackathon",
+        place: "Universidad Rafael Landivar",
+        recognitionDate: new Date("2023-10-05"),
+        descripcion: "Cuarto lugar en el concurso de Hackathon 10 organizado por la facultad de Ingenieria en Informatica y Sistemas de la Universidad Rafael Landivar"
+    },
+    {
+        title: "Participacion en la Olimpiada de Informatica",
+        place: "ICPC",
+        recognitionDate: new Date("2023-01-06"),
+        descripcion: "Participacion en competencia de programacion a nivel internacional organizada por la ICPC"
+    },
+    {
+        title: "Participacion en la Olimpiada de Informatica",
+        place: "ICPC",
+        recognitionDate: new Date("2024-14-04"),
+        descripcion: "Segunda Participacion en competencia de programacion a nivel internacional organizada por la ICPC"
+    },
+    
 ]
 
 export default function TimeLine(){

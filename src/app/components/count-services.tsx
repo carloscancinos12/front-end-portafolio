@@ -36,10 +36,6 @@ const habilities: habilitie[] = [
         image: "/hab-mysql-ico.png",
     },
     {
-        title: "mariadb",
-        image: "/hab-mariadb-ico.png",
-    },
-    {
         title: "javascript",
         image: "/hab-js-ico.png",
     },
