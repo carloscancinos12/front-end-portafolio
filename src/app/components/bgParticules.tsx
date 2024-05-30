@@ -67,7 +67,7 @@ export default function BgParticules() {
                             default: "bounce",
                         },
                         random: false,
-                        speed: 1,
+                        speed: 0.4,
                         straight: false,
                     },
                     number: {
@@ -80,7 +80,7 @@ export default function BgParticules() {
                         value: 0.5,
                     },
                     shape: {
-                        type: "circle",
+                        type: "square",
                     },
                     size: {
                         value: { min: 1, max: 5 },

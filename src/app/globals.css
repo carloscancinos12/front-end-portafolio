@@ -26,6 +26,10 @@ body {
     rgb(var(--background-start-rgb));
 } */
 
+:root{
+  --tertiary: theme('colors.tertiary');
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
@@ -47,4 +51,10 @@ main{
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets
+  .swiper-pagination-bullet {
+  background-color: var(--tertiary);
 }
