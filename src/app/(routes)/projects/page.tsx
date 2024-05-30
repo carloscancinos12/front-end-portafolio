@@ -41,7 +41,7 @@ export default function ProjectsPage(){
     return(
         <>
             <TransPage></TransPage>
-            <div className="flex flex-col justify-center h-lvh">
+            <div className="flex flex-col justify-center h-lvh pt-40 pb-20 md:pt-0 md:pb-0">
                 <CircleImage></CircleImage>
                 <h1 className="text-2xl leading-tight text-center md:text-4xl md:mb-5">
                     Algunos proyectos <span className="block font-bold text-secondary"> en los que he participado</span>
